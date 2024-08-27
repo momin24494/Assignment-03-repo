@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
+<body class="bg-white">
     <div class="navbar bg-base-100 bg-white">
         <div class="navbar-start">
           <div class="dropdown">
@@ -251,12 +251,38 @@
             </div>
       </div>
          </section>
-
-
           </div>
-
-
       </div>
+
+
+
+    
+  <main class="bg-gradient-to-t">
+    <div></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-white px-4 gap-4 m-8">
+        <label class="input input-bordered flex items-center gap-2 p-2">
+          Name
+          <input type="text" class="grow" placeholder="Daisy" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2">
+          Email
+          <input type="text" class="grow" placeholder="daisy@site.com" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" placeholder="Search" />
+          <kbd class="kbd kbd-sm">⌘</kbd>
+          <kbd class="kbd kbd-sm">K</kbd>
+        </label>
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" placeholder="Search" />
+          <span class="badge badge-info">Optional</span>
+        </label>
+      </div>
+    </main>
+
+
+
+
 
 
 </body>
